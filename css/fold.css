@@ -1,0 +1,80 @@
+.hover-fold_1 {
+  background: #e8c63d;
+  border: 5px white solid;
+  height: 320px;
+  margin: 10px auto;
+  -moz-perspective: 1500;
+  -webkit-perspective: 1500;
+  perspective: 1500;
+  position: relative;
+  width: 424px;
+}
+.hover-fold_1 h2 {
+  border-bottom: 1px solid #333;
+  margin: 0 40px;
+  padding: 110px 0 2px;
+}
+.hover-fold_1 .top {
+  height: 50%;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+.hover-fold_1 .top .face {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+.hover-fold_1:hover .top {
+  -moz-transform: rotateX(-180deg);
+  -ms-transform: rotateX(-180deg);
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+}
+
+.hover-fold_1 .front {
+  background: url(../images/download.png);
+  height: 100%;
+  /*has to be 100% of .top */
+  width: 100%;
+}
+.hover-fold_1 .back {
+  background: #e8c63d;
+  height: 100%;
+  /*has to be 100% of .top */
+  padding: 0 40px;
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  width: 100%;
+}
+.hover-fold_1 .back p {
+  margin: 0;
+}
+.hover-fold_1 .bottom {
+  background: url(../images/download.png) bottom;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 0;
+}
+
