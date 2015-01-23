@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+	<!-- Meta tags & title /-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="all,index,follow" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://www.justinaguilar.com/animations/css/animations.css">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/sticky_footer.css" type="text/css">
+	<link rel="stylesheet" href="http://cdn.rawgit.com/daneden/animate.css/master/animate.min.css" type="text/css">
+	<title>Portfolio</title>
+	<meta name="description" content="Create a sticky navigation bar that remains fixed to the top after scroll" />
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Main stylesheet /-->
+
+</head>
+
+<body>
+
+<section id="screen1">
+
+	<div class="container-fluid images slideDown">
+	<img src="images/pic.jpg" class="img-responsive">
+	</div>
+	<div class="container-fluid ">
+<div class="slideDown">
+  
+		<div class="breif " >
+			<h2 class="text-center" style="text-decoration: underline;"> Brief Intro</h2>
+			<p class="data_1">To Work with sincere efforts and dedication on any assigned task with complete involvement, enrich
+				my knowledge and contribute towards achieving the goal of my working firm and to become a 
+				successful profession to work in an innovative and competitive world.</p>
+		</div>
+    </div>
+</div>
+			<nav class="navbar navbar-default nvgtn" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="/">Agrim Sharma</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="/"><i class="fa fa-home fa-fw"></i>Home</a></li>
+      <li class=""><a href="/projects/"><i class="fa fa-archive fa-fw"></i>Projects</a></li>
+      <li class=""><a href="/blog/"><i class="fa fa-comments-o fa-fw"></i>Blog</a></li>
+      <li><a target="_blank" href="/static/resume.pdf"><i class="fa fa-briefcase fa-fw"></i>Résumé</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+	<!--nav class="navbar navbar-default nvgtn " >
+	<div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+      <ul class="nav navbar-nav " >
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Resume</a></li>
+		</ul>
+		</div>
+	</nav-->
+
+</section>
+	
+<section id="screen2" class="vertical-align">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text_c"><h1><span>My skills</span></h1></div>
+			<div class="col-md-6 col-sm-12" style="margin-top: 18px;">
+				<p>An expertise in UI design. Have made some projects, some are on web and some on desktop.
+					Have an expert command on HTML/HTML5 and CSS/CSS5. With the help of Jquery and Javascript UI's were developed.
+					Excellent command on MySQL query design. Designed utilities that are used for automation of database for PayTm and One97.
+					
+				</p>
+			</div>
+			<div class="charts col-md-6 col-sm-12">
+		
+				<strong>UI(HTML+CSS)</strong>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+						<span class="sr-only"></span>
+					</div>
+				</div>
+				<strong>DBMS</strong>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+						<span class="sr-only"></span>
+					</div>
+				</div>
+				<strong>Javascript/jQuery</strong>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+						<span class="sr-only"></span>
+					</div>
+				</div>
+				<strong>C / C++</strong>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+						<span class="sr-only"></span>
+					</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+<section id="screen3">
+
+<div class="container-fluid">
+<div class="row">
+			<div class="col-md-12 "><h1><span>Experience</span></h1></div>
+			</div>
+<div class="col-md-6 col-lg-6 col-xs-12 pull-left fadeInLeft animated fade_1">
+
+ 	<div class="hover-fold" onclick="location.href='paytm.htm'">
+	  <h2 class="text-center">PayTm</h2>
+		 <a href="paytm.html"> <div class="top">
+			<div class="front face"></div>
+			<div class="back face">
+			  <p class="text-center"><a href="paytm.html">Working as a Python Engineer</a></p>
+			</div>
+		  </div>
+		  
+		  <div class="bottom"></div>
+		  </a>
+	  </div>
+
+</div>
+
+
+<div class="col-md-6 col-lg-6 col-xs-12 pull-right fadeInRight animated fade_2" >
+
+	<div class="hover-fold_1 "onclick="location.href='one.htm'">
+	  <h2 class="text-center">One97</h2>
+		<a href="one97.html">  <div class="top">
+			<div class="front face"></div>
+			<div class="back face">
+			  <p class="text-center"><a href="one97.html">Working as a Software Developer</a></p>
+			</div>
+		  </div>
+		  
+		  <div class="bottom"></div>
+		  </a>
+	  </div>
+</div>
+</div>
+</section>
+
+<section id="screen4">
+	<div id="carousel-example-generic" class="container carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+        
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+			
+			<p> A thrilled client is the main goal and motivation behind every custom website design project I take on. 
+			As a professional web designer, nothing is better than hearing that I’ve accomplished a client’s goals, 
+			visions and needs just as or better than imagined. Below, I’ve included testimonials from clients whose 
+			projects are also featured and explained in detail in my website portfolio.</p>
+				
+			
+
+        </div>
+        <div class="item ">
+          <p>Received an hand full of appreciations and awards from my college time till now. But I think the best 
+			appreciation I got was from Vice President (Mr. Raghav) and Manager(Mr. Arvind) for designing and development on best UI for 
+			PayTm website. The development of PayTm website via my design is in process. To get those skills it requires a lot of 
+			effort and time. As we have a saying <strong> Practise makes a man perfect</strong>		</p>
+			
+        </div>
+        
+      </div>
+    </div>
+</section>
+<section id="screen5">
+
+<a href="mailto:agrim89@gmail.com" target="_blank" id="contact_me_main" >
+				<i class="fa fa-envelope-o"></i>
+				<span class="hidden-lg hidden-md hidden-sm">Contact me</span>
+				<span class="hidden-xs">Get in touch</span>
+			</a>
+</section>
+<section id="screen6 "class="footer" style="height: 100%;">
+				 <div class="container col-xs-6 data">@Copyright Agrim Sharma.</div>
+				<div class="extra_footer vertical-align">
+					<div class="container col-xs-6 links">
+						<a href="https://www.facebook.com/sharmaagrim">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a href="mailto:agrim89@gmail.com">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<a href="https://plus.google.com/u/0/101343963056414152417">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						
+						<a href="https://www.linkedin.com/profile/view?id=61717330&trk=nav_responsive_tab_profile">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			
+</section>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(window).scroll(function() {
+		$('#animatedElement').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideDown");
+			}
+		});
+	});
+   $(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 70;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('nav').addClass('fixed');
+			 }
+			 else {
+				 $('nav').removeClass('fixed');
+			 }
+		});
+	});
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
